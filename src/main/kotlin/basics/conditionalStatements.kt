@@ -35,14 +35,4 @@ fun main(){
     // Method 4
     if (num%2 == 0) println("Even")
     else println("Odd")
-
-    // Method 5: Using When
-    when {
-        num%2 == 0 -> {
-            println("Even")
-        }
-        else -> {
-            println("Odd")
-        }
-    }
 }
