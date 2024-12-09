@@ -17,7 +17,7 @@ fun main(){
     println()
 
     // opposite range
-    for (i in 10 downTo 1){
+    for (i in 10 downTo 1){ // we use downTo for opposite range (bade se chota, Decreasing order range)
         println(i)
     }
 
