@@ -21,6 +21,27 @@ fun main(){
         println(i)
     }
 
+    println()
+
+    // Printing even numbers
+    for (i in 0..10 step 2){ // by default steps is always 1
+        println(i)
+    }
+
+    println()
+
+    // Looping in Array
+    val fruits: Array<String> = arrayOf("Banana", "Mango", "Apple", "Grapes")
+    for (fruit in fruits){
+        println(fruit)
+    }
+
+    println()
+
+    for (fruit in fruits.reversed()){ // reverse looping
+        println(fruit)
+    }
+
     println("For Loop End")
     println()
 
