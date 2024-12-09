@@ -18,7 +18,7 @@ fun main(){
     println()
 
     // While Loops
-    var count = 1;
+    var count = 1
     while (count<=10){
         println("Count $count")
         count++
