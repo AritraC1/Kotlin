@@ -7,7 +7,7 @@ fun main(){
 //    print("Enter marks = ")
 //    val marks: Int = readln().toInt()
 //
-//    val grade: Char = if (marks in 91 .. 100){
+//    val grade: Char = if (marks in 91 .. 100){ // .. is used to give range
 //        'A'
 //    }else if (marks in 81 .. 90) {
 //        'B'
