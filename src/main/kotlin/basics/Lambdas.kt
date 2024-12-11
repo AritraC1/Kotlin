@@ -12,9 +12,48 @@ fun main() {
     cube(3){
         println(it)
     }
+
+    val square = { x: Int -> x * x }
+    val addition = { x: Int, y: Int -> x + y}
+
+
+    val myVar = {
+        println("hi i am lambda")
+        println("sum of a and b is ${245 + 25}")
+    }
+
+    myVar()
+    println(square(3))
+    println("Addition using lambda function ${addition(45, 23).toString()}")
+
+    sumNNumbers(12, 23, 12, 12)
+    name("Ash Ketchum")
 }
 
 fun cube(number: Int, callBack: (message: String) -> Unit){
     println("Cube is = ${number * number * number}")
     callBack("Cube Calculated")
+}
+
+fun sumTwoNumbers(
+    number1: Int,
+    number2: Int,
+    callBack: () -> Unit
+) {
+    println("Sum of two numbers is ${number1 + number2}")
+    callBack()
+}
+
+fun name(vararg names: String) {
+    println(names::class.java.name)
+
+}
+
+fun sumNNumbers(vararg nums: Int) {
+    var sum = 0
+    for (value in nums) {
+        println(value)
+        sum += value
+    }
+    println("sum is $sum")
 }
