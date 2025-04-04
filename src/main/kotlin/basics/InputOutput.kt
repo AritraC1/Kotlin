@@ -1,15 +1,14 @@
 package org.example.basics
 
 fun main(){
-    // Output
-    println("This is println")
 
     // Input
-    print("Enter age: ")
+    print("Enter Name: ")
+    val name = readLine()
+
+    print("Enter Age: ")
     val age = readln()
-    println("I am $age years old")
 
-    readLine()
-
-
+    // Output
+    println("I am $name & I am $age years old")
 }
