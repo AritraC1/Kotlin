@@ -28,9 +28,9 @@ fun ops(a: Int, b: Int) {
 
     // Increment Decrement
     num1++
-    println("Increment: ${num1}")
+    println("Increment: $num1")
     num2--
-    println("Decrement: ${num2}")
+    println("Decrement: $num2")
 
     println()
     println("Comparison Operator")
@@ -47,7 +47,7 @@ fun ops(a: Int, b: Int) {
     println("Logical Operator")
 
     // Logical Operator
-    val x: Boolean = true
+    val x: Boolean = true // Explicitly Given type
     val y: Boolean = false
 
     if (x == true && y == false) println(true)
