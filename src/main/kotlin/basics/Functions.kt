@@ -34,6 +34,8 @@ fun reversed(input: String): String{
 // Extended Function (using '.' dot symbol)
 // An extended function, or extension function, allows you to "add" new functionality to an existing class without modifying its source code.
 // Extension functions are defined outside the class and are called like regular member functions.
+
+/*
 fun String.reversed(): String {
     val finalString = buildString {
         for (i in this@reversed.lastIndex downTo 0) {
@@ -43,5 +45,6 @@ fun String.reversed(): String {
 
     return finalString
 }
+*/
 
 // Note: Extended Functions don’t actually modify the class itself but are syntactic sugar that allows for a cleaner and more concise way to work with existing classes.
