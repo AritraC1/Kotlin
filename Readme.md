@@ -1,7 +1,7 @@
 # Kotlin
 
 ## About
-Kotlin Basic Concepts, OOP, Kotlin Specific Features, Advance Kotlin and Interoperability with Java
+This repository serves as a comprehensive guide to learning Kotlin, covering both basic and advanced concepts. It is designed to help you grasp Kotlin fundamentals, Object-Oriented Programming (OOP), Kotlin-specific features, and how to seamlessly integrate Kotlin with Java.
 
 ## Resources
 
