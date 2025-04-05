@@ -7,7 +7,7 @@ fun main(){
 }
 
 fun cubeSum(num: Int): Int {
-    var sum: Int = 0
+    var sum = 0
     var temp: Int = num
 
     while(temp != 0){

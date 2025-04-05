@@ -7,7 +7,7 @@ fun main(){
 }
 
 fun reverseNumber(num: Int): Int {
-    var rev: Int = 0
+    var rev = 0
     var temp = num
 
     while (temp != 0){

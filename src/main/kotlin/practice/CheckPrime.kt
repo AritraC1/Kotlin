@@ -8,7 +8,7 @@ fun main(){
 }
 
 fun checkPrime(num: Int): Boolean {
-    var c: Int = 2
+    var c = 2
 
     if (num <= 1) return false
 
